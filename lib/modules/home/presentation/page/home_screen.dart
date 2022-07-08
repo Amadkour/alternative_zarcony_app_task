@@ -6,11 +6,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../../core/widget/app_bar.dart';
 import '../../cubit/add/add_cubit.dart';
 import '../../cubit/category/category_cubit.dart';
-import '../../provider/deal/model/deal_model.dart';
-import '../widget/add/add_list_design.dart';
 import '../widget/add/slider.dart';
 import '../widget/address/address_list_design.dart';
 import '../widget/category/category_list_design.dart';
+import '../widget/deal/deal_list_design.dart';
 import '../widget/search_widget.dart';
 
 class HomeScreen extends StatelessWidget {

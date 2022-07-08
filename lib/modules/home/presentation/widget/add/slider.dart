@@ -13,35 +13,38 @@ class SliderWidget extends StatelessWidget {
   final bool isSlider;
   @override
   Widget build(BuildContext context) {
-    return CarouselSlider(
-        items: news
-            .map((e) => InkWell(
-          onTap: () {
-            //----------------
-          },
-                  child: MyImage(
-                    url: e.image,
-                    height: null,
-                    // fit: BoxFit.fitHeight,
-                    width: null,
-                    boarderRadius: 10,
-                    fit: BoxFit.fill,
-                  ),
-                ))
-            .toList(),
-        options: CarouselOptions(
-          height:isSlider? 160:80,
-          viewportFraction:isSlider? 1: 0.4,
-          initialPage: 0,
-          enableInfiniteScroll: true,
-          reverse: false,
-          autoPlay: true,
-          enlargeStrategy : CenterPageEnlargeStrategy.scale,
-          autoPlayInterval: const Duration(seconds: 3),
-          autoPlayAnimationDuration: const Duration(milliseconds: 800),
-          autoPlayCurve: Curves.fastOutSlowIn,
-          enlargeCenterPage: true,
-          scrollDirection: Axis.horizontal,
-        ));
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: CarouselSlider(
+          items: news
+              .map((e) => InkWell(
+            onTap: () {
+              //----------------
+            },
+                    child: MyImage(
+                      url: e.image,
+                      height: null,
+                      // fit: BoxFit.fitHeight,
+                      width: null,
+                      boarderRadius: 10,
+                      fit: BoxFit.fill,
+                    ),
+                  ))
+              .toList(),
+          options: CarouselOptions(
+            height:isSlider? 160:80,
+            viewportFraction:isSlider? 1: 0.4,
+            initialPage: 0,
+            enableInfiniteScroll: true,
+            reverse: false,
+            autoPlay: true,
+            enlargeStrategy : CenterPageEnlargeStrategy.scale,
+            autoPlayInterval: const Duration(seconds: 3),
+            autoPlayAnimationDuration: const Duration(milliseconds: 800),
+            autoPlayCurve: Curves.fastOutSlowIn,
+            enlargeCenterPage: true,
+            scrollDirection: Axis.horizontal,
+          )),
+    );
   }
 }
