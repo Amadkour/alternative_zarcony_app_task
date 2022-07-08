@@ -1,0 +1,26 @@
+[
+  {
+    "type": "Home",
+    "image": "https://www.istockphoto.com/es/foto/productos-de-belleza-aislados-sobre-fondo-blanco-gm1249579132-364205435?phrase=product",
+    "location": "Mustafa St. No:2",
+    "floor": "10",
+    "building": "2",
+    "specific": ""
+  },
+  {
+    "type": "office",
+    "image": "https://www.istockphoto.com/es/foto/productos-de-belleza-aislados-sobre-fondo-blanco-gm1249579132-364205435?phrase=product",
+    "location": "Axis Istanbul",
+    "floor": "2",
+    "building": "2",
+    "specific": "Office 11"
+  },
+  {
+    "type": "Home",
+    "image": "https://www.istockphoto.com/es/foto/productos-de-belleza-aislados-sobre-fondo-blanco-gm1249579132-364205435?phrase=product",
+    "location": "Mustafa St. No:2",
+    "floor": "20",
+    "building": "2",
+    "specific": ""
+  }
+]

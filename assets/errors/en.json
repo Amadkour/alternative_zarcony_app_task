@@ -1,0 +1,33 @@
+{
+  "accept" : null,
+
+  "phone_empty": "Please enter your phone number",
+  "phone_greater": "Your phone number should  be greater than 8 digits",
+  "password_empty": "Please enter your password",
+  "password_greater": "Your password should  be greater than 6 digits",
+  "new_password_empty": "Please enter your new password",
+  "password_not_match" :"Password Not Match",
+  "name_empty": "Enter your correct name please",
+  "id_empty": "Enter your correct Id please",
+  "id_greater" : "Your Id should  be 10 digits",
+  "birth_empty" : "Enter your BirthDate please",
+  "email_empty" : "Enter your correct Email please",
+  "email_greater": "Please enter the email correctly",
+
+  "change_password_not_match" : "Password Not Match",
+
+  "card_number_empty" :"Enter your Card Number",
+  "card_number_length" :"Card number should  be 16 digits",
+
+  "verification_empty" : "Please enter your verification",
+  "amount_empty" :"Please enter your amount",
+  "cvv_empty": "Please enter your verification code",
+  "bank_name_empty" : "Enter Bank Name please",
+  "account_number_empty":"Enter your Account Number please",
+  "IBAN_empty" : "Enter your IBAN",
+  "expire_date_empty": "Please enter ِExpire Date",
+
+  "comment_empty" : "Enter your comment please"
+
+  
+}
